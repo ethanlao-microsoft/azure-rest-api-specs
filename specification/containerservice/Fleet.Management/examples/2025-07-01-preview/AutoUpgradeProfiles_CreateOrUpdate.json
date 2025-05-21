@@ -9,7 +9,9 @@
     "autoUpgradeProfileName": "autoupgradeprofile1",
     "resource": {
       "properties": {
-        "channel": "Stable"
+        "channel": "Stable",
+        "targetKubernetesVersion": "",
+        "longTermSupport": false
       }
     }
   },
@@ -29,7 +31,9 @@
         },
         "properties": {
           "provisioningState": "Succeeded",
-          "channel": "Stable"
+          "channel": "Stable",
+          "targetKubernetesVersion": "",
+          "longTermSupport": false
         },
         "eTag": "\"EtagValue\""
       }
@@ -49,11 +53,12 @@
         },
         "properties": {
           "provisioningState": "Succeeded",
-          "channel": "Stable"
+          "channel": "Stable",
+          "targetKubernetesVersion": "",
+          "longTermSupport": false
         },
         "eTag": "\"EtagValue\""
       }
     }
   }
 }
-
